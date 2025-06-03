@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanabicollections</title>
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="Assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="Assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Nanabicollections" />
+    <!--  !<link rel="manifest" href="/site.webmanifest" /> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<!-- INI NAVBAR -->
+
+<body>
+    <nav class="navbar">
+        <div class="brand">NANABICOLLECTIONS</div>
+        <ul class="nav-links">
+            <li><a class="active" href="Index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Shop.html">SHOP</a></li>
+            <li class="dropdown">
+                <a href="#">CONTACT</a>
+                <ul class="dropdown-content">
+                    <li><a
+                            href="https://api.whatsapp.com/send?phone=6285811721642&text=Halo%20kak%2C%20mau%20tanya%C2%B2%20tentang%20produknya%20%F0%9F%98%8A">WhatsApp</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/nanabicollections/">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@nanabicollections">Tiktok</a></li>
+                    <li><a href="https://chat.whatsapp.com/L0PMumM1k9bKu005k33gVB">Komunitas</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- INI NAVBAR -->
+
+
+
+
+
+    <!-- INI HERO -->
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>GAMIS MUSLIMAH</h1>
+            <h2>NANABI STORE</h2>
+            <a href="Shop.html" class="btn">SHOP NOW</a>
+        </div>
+    </section>
+
+    <!-- INI HERO -->
+
+
+
+
+
+    <!-- INI CARD POSTER -->
+
+    <section class="poster-section">
+        <div class="poster-item">
+            <img src="Assets/V1.JPG" alt="" onclick="openModal(this)">
+            <p class="category">category</p>
+            <h3>POSTER V1</h3>
+            <p class="price">$23.99</p>
+            <div class="star-rating">★★★★★</div>
+            <div class="poster-buttons">
+                <button aria-label="Add to Cart">
+                    <img src="Assets/chart.png" alt="Cart Icon" class="cart-icon">
+                </button>
+            </div>
+        </div>
+
+        <div class="poster-item">
+            <img src="poster1.jpg" alt="Poster V2" onclick="openModal(this.src)">
+            <p class="category">Posters</p>
+            <h3>POSTER V2</h3>
+            <p class="price">$17.99</p>
+            <div class="star-rating">★★★★☆</div>
+            <div class="poster-buttons">
+                <button>Add to Cart</button>
+                <button onclick="alert('Quick View coming soon')">Quick View</button>
+            </div>
+        </div>
+
+        <div class="poster-item">
+            <img src="poster1.jpg" alt="Poster V3" onclick="openModal(this.src)">
+            <p class="category">Posters</p>
+            <h3>POSTER V3</h3>
+            <p class="price">$14.99</p>
+            <div class="star-rating">★★★☆☆</div>
+            <div class="poster-buttons">
+                <button>Add to Cart</button>
+                <button onclick="alert('Quick View coming soon')">Quick View</button>
+            </div>
+        </div>
+
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <img id="modal-img" src="" alt="Zoomed Image">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- INI CARD POSTER -->
+
+
+
+
+
+    <!-- INI SERVICE DIATAS FOOTER -->
+
+    <section class="service-section">
+        <div class="service-container">
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img class="img" src="Assets/IG2.png" alt="Instagram">
+                </div>
+                <h3>PRODUSEN GAMIS SYAR'I DAN SIMPLE ❤️</h3>
+                <p>📆 Sejak 𝟮𝟬𝟭𝟲, Membantu 𝟯𝟬𝟬.𝟬𝟬𝟬+ muslimah berpakaian Syar'i 𝘀𝗲𝘀𝘂𝗮𝗶 𝗽𝗲𝗿𝗶𝗻𝘁𝗮𝗵
+                    𝗔𝗹𝗹𝗮𝗵 ❤️</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img class="img" src="Assets/Truk.png" alt="Gambar Truk">
+                </div>
+                <h3>PENGIIRIMAN DENGAN HATI-HATI</h3>
+                <p>Produsen Gamis Syar'i 📌 HQ Bogor</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img class="img" src="Assets/chart.png" alt="Gambar chart">
+                </div>
+                <h3>EXCELLENT SERVICE</h3>
+                <p>Live chat and support</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- INI SERVICE DIATAS FOOTER -->
+
+
+
+
+    <!-- INI FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+            <div class="footer-logo">NANABICOLLECTIONS</div>
+            <p class="copyright">Copyright &copy; 2025 Nanabicollections</p>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Zoomed Image">
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+    <!-- INI FOOTER -->
+
+
+
+
+
+</body>
+
+</html>
